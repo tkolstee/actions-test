@@ -1,11 +1,11 @@
 name: Super-Linter
 
 on: push
-runs_on: selhost1
+
 jobs:
   super-lint:
     name: Lint code base
-    runs-on: ubuntu-latest
+    runs-on: selfhost1
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
