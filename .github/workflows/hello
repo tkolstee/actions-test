@@ -2,4 +2,5 @@ name: hello
 on: [push, workflow_dispatch]
 jobs:
   greet:
+    runs-on: self-hosted
     run: echo "Hello, world!"
